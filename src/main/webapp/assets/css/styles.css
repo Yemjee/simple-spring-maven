@@ -1,0 +1,80 @@
+body{
+  font-family:Arial, Helvetia,sans-serif;
+}
+
+#promo{
+  margin-top:65px;
+  text-align:center;
+  background-size:cover;
+  padding:40px;
+  background:url(../../assets/img/camera2.jpg);
+}
+
+@media (max-width:991px) {
+  #promo{
+    padding:20px;
+  }
+}
+
+#promo .jumbotron{
+  background-color:rgba(255,255,255,0.75);
+  margin:0 auto;
+  max-width:800px;
+  border-radius:20px;
+  padding:40px;
+}
+
+@media (max-width:991px) {
+  #promo .jumbotron{
+    padding:20px;
+  }
+}
+
+.site-section{
+  padding-bottom:78px;
+  text-align:center;
+}
+
+.site-section h1{
+  margin-bottom:30px;
+  font-weight:normal;
+  margin-top:60px;
+}
+
+#welcome p{
+  max-width:800px;
+  margin:0 auto;
+  padding:20px;
+}
+
+#why .item{
+  padding-top:36px;
+}
+
+#why .item i{
+  font-size:42px;
+  color:rgb(170,47,47);
+}
+
+#why .item h2{
+  font-size:24px;
+  margin-bottom:20px;
+  margin-top:13px;
+  font-weight:normal;
+}
+
+.dark-section{
+  background-color:#aec5d2;
+}
+
+#logo{
+  display:inline-block;
+  margin-right:10px;
+  max-height:40px;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+  background-color:yellow;
+  border-color:transparent;
+}
+

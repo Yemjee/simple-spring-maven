@@ -17,7 +17,7 @@ import com.yemjee.service.StudentService;
 public class StudentController {
 	@Autowired
 	private StudentService studentService;
-	//
+
 	@RequestMapping("/index")
 	public String setupForm(Map<String, Object> map){
 		Student student = new Student();
